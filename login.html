@@ -1,0 +1,40 @@
+<html>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="login/tampilan.css" />
+  <script src="login/apps.js"></script>
+
+  <body>
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-4">
+          <div class="card buatcard">
+            <div class="card-body">
+              <form name="form" method="post" onsubmit="return login()">
+                <div class="buatalret" id="alert">
+                  Username Atau Password Salah
+                </div>
+                <div class="form-group">
+                  <label>Username</label>
+                  <input type="text" name="email" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Password</label>
+                  <input type="password" name="pass" class="form-control" />
+                </div>
+                <br />
+                <div class="form-group">
+                  <input
+                    type="submit"
+                    value="Login"
+                    class="btn btn-primary btn-block"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

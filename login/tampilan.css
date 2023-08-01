@@ -1,0 +1,14 @@
+.buatcard{
+    width: 300px;
+    height: auto;
+    background: rgb(221, 218, 212);
+
+}
+
+.buatalret{
+   background-color: red;
+   border-radius: 3px;
+   color: white;
+   display: none;
+}
+
